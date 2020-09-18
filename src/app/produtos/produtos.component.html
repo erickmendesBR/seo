@@ -1,0 +1,7 @@
+<h4>Produtos</h4>
+
+<ul>
+    <li *ngFor="let produto of [].constructor(20); let i = index">
+        <a [routerLink]="[i + 1]">produto {{i + 1}}</a>
+    </li>
+</ul>
