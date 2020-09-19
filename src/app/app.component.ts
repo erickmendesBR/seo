@@ -9,4 +9,9 @@ import { pluck } from 'rxjs/operators';
 })
 export class AppComponent {
   title = 'blog';
+
+  constructor() {
+    console.log("Construiu");
+    
+  }
 }
